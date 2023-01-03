@@ -15,6 +15,7 @@
 <body>
   <!-- Hello World! -->
 
+<button type="button">Test Button</button>
 
 <script>
 document.addEventListener('click', testFunction);
