@@ -15,9 +15,8 @@
 <body>
   <!-- Hello World! -->
 
-<form action="/action_page.php">
-  <input type="text" id="name" name="lname"><br><br>
-</form>
+  <input type="text" id="name" value="Some text...">
+
 
 <script>
 // fix : Does not use passive listeners to improve scrolling performance
