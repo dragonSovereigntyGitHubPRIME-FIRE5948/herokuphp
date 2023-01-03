@@ -22,10 +22,17 @@
 
 <script>
 // fix : Does not use passive listeners to improve scrolling performance
-const beforeUnloadListener = (event) => {
-  event.preventDefault();
-  return event.returnValue = "Are you sure you want to exit?";
-};
+// const beforeUnloadListener = (event) => {
+//   event.preventDefault();
+//   return event.returnValue = "Are you sure you want to exit?";
+// };
+
+window.addEventListener('beforeunload', (event) => {
+  if (pageHasUnsavedChanges()) {
+    event.preventDefault();
+    return event.returnValue = 'Are you sure you want to exit?';
+  }
+});
 
 const nameInput = document.querySelector("#name");
 
