@@ -14,12 +14,16 @@
 </head>
 <body>
   <!-- Hello World! -->
-  <ul>
-     <li>Raindrops on roses</li>
-     <li>Whiskers on kittens</li>
-     <li>Bright copper kettles</li>
-    </ul>
-    <div>Error</div>
+
+<button type="button">Test Button</button>
+
+<script>
+button.addEventListener('click', testFunction);
+
+function testFunction("test"){
+    return "test"";
+}
+</script>
 
 </body> 
 </html>
