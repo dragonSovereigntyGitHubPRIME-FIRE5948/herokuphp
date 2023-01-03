@@ -18,8 +18,8 @@
      <li>Raindrops on roses</li>
      <li>Whiskers on kittens</li>
      <li>Bright copper kettles</li>
-     <div>Error</div>
     </ul>
+    <div>Error</div>
 
 </body> 
 </html>
