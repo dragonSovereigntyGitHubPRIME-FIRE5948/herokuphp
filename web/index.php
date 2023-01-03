@@ -26,23 +26,25 @@
 //   event.preventDefault();
 //   return event.returnValue = "Are you sure you want to exit?";
 // };
+addEventListener('unload', (event) => { });
+onunload = (event) => { };
 
-window.addEventListener('beforeunload', (event) => {
-  if (pageHasUnsavedChanges()) {
-    event.preventDefault();
-    return event.returnValue = 'Are you sure you want to exit?';
-  }
-});
+// window.addEventListener('beforeunload', (event) => {
+//   if (pageHasUnsavedChanges()) {
+//     event.preventDefault();
+//     return event.returnValue = 'Are you sure you want to exit?';
+//   }
+// });
 
-const nameInput = document.querySelector("#name");
+// const nameInput = document.querySelector("#name");
 
-nameInput.addEventListener("input", (event) => {
-  if (event.target.value !== "") {
-    addEventListener("beforeunload", beforeUnloadListener, {capture: true});
-  } else {
-    removeEventListener("beforeunload", beforeUnloadListener, {capture: true});
-  }
-});
+// nameInput.addEventListener("input", (event) => {
+//   if (event.target.value !== "") {
+//     addEventListener("beforeunload", beforeUnloadListener, {capture: true});
+//   } else {
+//     removeEventListener("beforeunload", beforeUnloadListener, {capture: true});
+//   }
+// });
 </script>
 
 </body> 
