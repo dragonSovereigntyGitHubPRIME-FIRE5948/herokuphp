@@ -11,41 +11,20 @@
     <!-- fix : Document doesn't use legible font sizes -->
     <!-- fix : Does not have a <meta name="viewport"> tag with width or initial-scale -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-  <!-- Hello World! -->
+    <script>
+      window.addEventListener("beforeunload", (event) => {
+        console.log("I am the 1st one.");
+      });
+      window.addEventListener("unload", (event) => {
+        console.log("I am the 3rd one.");
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Hello World -->
+    <iframe src="child-frame.html"></iframe>
+  </body>
 
-  <label for="name">Name (4 to 8 characters):</label>
-
-<input type="text" id="name" name="name" required
-       minlength="4" maxlength="8" size="10">
-
-<script>
-// fix : Does not use passive listeners to improve scrolling performance
-// const beforeUnloadListener = (event) => {
-//   event.preventDefault();
-//   return event.returnValue = "Are you sure you want to exit?";
-// };
-addEventListener('unload', (event) => { });
-onunload = (event) => { };
-
-// window.addEventListener('beforeunload', (event) => {
-//   if (pageHasUnsavedChanges()) {
-//     event.preventDefault();
-//     return event.returnValue = 'Are you sure you want to exit?';
-//   }
-// });
-
-// const nameInput = document.querySelector("#name");
-
-// nameInput.addEventListener("input", (event) => {
-//   if (event.target.value !== "") {
-//     addEventListener("beforeunload", beforeUnloadListener, {capture: true});
-//   } else {
-//     removeEventListener("beforeunload", beforeUnloadListener, {capture: true});
-//   }
-// });
-</script>
 
 </body> 
 </html>
