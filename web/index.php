@@ -15,14 +15,24 @@
 <body>
   <!-- Hello World! -->
 
-<button type="button">Test Button</button>
+<form action="/action_page.php">
+  <input type="text" id="name" name="lname"><br><br>
+</form>
 
 <script>
 // fix : Does not use passive listeners to improve scrolling performance
-window.addEventListener('beforeunload', (event) => {
-  if (pageHasUnsavedChanges()) {
-    event.preventDefault();
-    return event.returnValue = 'Are you sure you want to exit?';
+const beforeUnloadListener = (event) => {
+  event.preventDefault();
+  return event.returnValue = "Are you sure you want to exit?";
+};
+
+const nameInput = document.querySelector("#name");
+
+nameInput.addEventListener("input", (event) => {
+  if (event.target.value !== "") {
+    addEventListener("beforeunload", beforeUnloadListener, {capture: true});
+  } else {
+    removeEventListener("beforeunload", beforeUnloadListener, {capture: true});
   }
 });
 </script>
