@@ -1,0 +1,14 @@
+{
+    "name": "vendor_name/heroku",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+      {
+        "name": "Neo Marcus",
+        "email": "21040247@myrp.edu.sg"
+      }
+    ],
+    "require": {
+    }
+  }
