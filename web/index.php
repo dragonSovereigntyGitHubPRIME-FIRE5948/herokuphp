@@ -18,11 +18,7 @@
 <button type="button">Test Button</button>
 
 <script>
-document.addEventListener('click', testFunction);
-
-function testFunction("test"){
-    return "test"";
-}
+document.addEventListener('touchstart', testFunction);
 </script>
 
 </body> 
