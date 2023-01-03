@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- Hello World -->
-    <iframe src="child-frame.html"></iframe>
+    <iframe src="test.html"></iframe>
   </body>
 
 
