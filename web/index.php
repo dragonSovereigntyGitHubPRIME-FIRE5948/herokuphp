@@ -15,8 +15,10 @@
 <body>
   <!-- Hello World! -->
 
-  <input type="text" id="name" value="Some text...">
+  <label for="name">Name (4 to 8 characters):</label>
 
+<input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
 
 <script>
 // fix : Does not use passive listeners to improve scrolling performance
