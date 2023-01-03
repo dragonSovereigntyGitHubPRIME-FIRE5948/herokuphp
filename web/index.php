@@ -10,10 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  Hello World! 2
+  Hello World!
 </body> 
 </html>
-
-<?php
-
-echo "Hello World!";
