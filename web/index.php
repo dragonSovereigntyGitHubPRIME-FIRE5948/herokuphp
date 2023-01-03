@@ -18,7 +18,13 @@
 <button type="button">Test Button</button>
 
 <script>
-document.addEventListener('touchstart', testFunction);
+// fix : Does not use passive listeners to improve scrolling performance
+window.addEventListener('beforeunload', (event) => {
+  if (pageHasUnsavedChanges()) {
+    event.preventDefault();
+    return event.returnValue = 'Are you sure you want to exit?';
+  }
+});
 </script>
 
 </body> 
