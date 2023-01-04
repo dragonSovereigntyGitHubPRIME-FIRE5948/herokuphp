@@ -15,8 +15,9 @@
   </head>
   <body>
     <!-- Hello World -->
+    Test
     <script>
-        document.write("Test")
+        document.write("Test Error")
     </script>
   </body>
 
