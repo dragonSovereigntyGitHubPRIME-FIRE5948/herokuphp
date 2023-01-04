@@ -14,7 +14,7 @@
 
   </head>
   <body>
-    <!-- Hello World -->
+    Hello World
 
     <input type="text">
 
