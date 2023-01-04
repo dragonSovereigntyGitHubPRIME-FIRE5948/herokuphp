@@ -15,10 +15,8 @@
   </head>
   <body>
     <!-- Hello World -->
-    <button type="button" onclick="myFunction()">Click me!</button>
-
     <script>
- document.write("Test")
+        document.write("Test")
     </script>
   </body>
 
