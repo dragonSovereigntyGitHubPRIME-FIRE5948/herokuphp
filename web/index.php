@@ -16,7 +16,7 @@
   <body>
     <!-- Hello World -->
 
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhelpx.adobe.com%2Fphotoshop%2Fusing%2Fconvert-color-image-black-white.html&psig=AOvVaw3RuvRJCpm1FjOlkBYCFAnJ&ust=1672885732731000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNik9JDvrPwCFQAAAAAdAAAAABAQ">
+    <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg">
 
     <script>
 
