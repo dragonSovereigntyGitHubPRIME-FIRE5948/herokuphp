@@ -16,7 +16,7 @@
   <body>
     <!-- Hello World -->
 
-    <img src="https://www.jquery-az.com/html/images/banana.jpg">
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhelpx.adobe.com%2Fphotoshop%2Fusing%2Fconvert-color-image-black-white.html&psig=AOvVaw3RuvRJCpm1FjOlkBYCFAnJ&ust=1672885732731000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNik9JDvrPwCFQAAAAAdAAAAABAQ">
 
     <script>
 
