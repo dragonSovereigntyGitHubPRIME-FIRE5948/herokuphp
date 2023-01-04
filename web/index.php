@@ -15,19 +15,15 @@
   </head>
   <body>
     <!-- Hello World -->
-    <!-- Test1
+    Test1
     Test2
-    Test3 -->
-    <button type="button" onclick="myFunction()">Click me!</button>
-
+    Test3
+    <button type="button" id="test" onclick="myFunction()">Click me!</button>
     <script>
-        // function myFunction() {
-            document.write("Error");
-        // }    
+        function myFunction() {
+            document.getElementById('test').innerHTML = "No Error"
+        }
     </script>
-  </body>
-
-
 </body> 
 </html>
 
