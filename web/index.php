@@ -11,18 +11,15 @@
     <!-- fix : Document doesn't use legible font sizes -->
     <!-- fix : Does not have a <meta name="viewport"> tag with width or initial-scale -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script>
-      window.addEventListener("beforeunload", (event) => {
-        console.log("I am the 1st one.");
-      });
-      window.addEventListener("unload", (event) => {
-        console.log("I am the 3rd one.");
-      });
-    </script>
+
   </head>
   <body>
     <!-- Hello World -->
-    <iframe src="test.php"></iframe>
+    <button type="button" onclick="myFunction()">Click me!</button>
+
+    <script>
+ document.write("Test")
+    </script>
   </body>
 
 
