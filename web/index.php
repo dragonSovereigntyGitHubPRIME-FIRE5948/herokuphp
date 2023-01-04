@@ -15,15 +15,16 @@
   </head>
   <body>
     <!-- Hello World -->
-    Test1
+    <!-- Test1
     Test2
-    Test3
+    Test3 -->
     <button type="button" onclick="myFunction()">Click me!</button>
 
     <script>
-function myFunction() {
-  document.write("Error");
-}    </script>
+        function myFunction() {
+            document.write("Error");
+        }    
+    </script>
   </body>
 
 
