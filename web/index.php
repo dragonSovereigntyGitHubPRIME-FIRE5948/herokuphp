@@ -21,9 +21,9 @@
     <button type="button" onclick="myFunction()">Click me!</button>
 
     <script>
-        function myFunction() {
+        // function myFunction() {
             document.write("Error");
-        }    
+        // }    
     </script>
   </body>
 
