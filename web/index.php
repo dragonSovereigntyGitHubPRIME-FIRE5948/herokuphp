@@ -15,10 +15,11 @@
   </head>
   <body>
     <!-- Hello World -->
-    <div id="test">Test</div>
+
+    <img src="https://www.jquery-az.com/html/images/banana.jpg">
+
     <script>
-            document.getElementById("test").innerHTML = "<iframe src='https://www.w3schools.com' title='W3Schools Free Online Web Tutorials'></iframe>";
-    // document.write("<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>");
+
     </script>
 </body> 
 </html>
