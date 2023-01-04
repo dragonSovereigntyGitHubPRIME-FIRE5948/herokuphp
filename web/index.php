@@ -16,8 +16,7 @@
   <body>
     Hello World
 
-    <input type="text">
-
+    <label><input type="text"></label>
 
     <script>
 
