@@ -16,10 +16,9 @@
   <body>
     Hello World
 
-    <a href="taxhike.html">[Read more...]</a>
-
-
-
+    <a href="taxhike.html">...</a>
+    <a href="twxhike.html">...</a>
+    <a href="tsxhike.html">...</a>
     <script>
 
     </script>
