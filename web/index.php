@@ -16,9 +16,8 @@
   <body>
     Hello World
 
-    <a href="taxhike.html">...</a>
-    <a href="twxhike.html">...</a>
-    <a href="tsxhike.html">...</a>
+    <input class="form-check-input" type="checkbox" role="switch" id="toggler">
+    
     <script>
 
     </script>
