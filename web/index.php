@@ -16,8 +16,8 @@
   <body>
     Hello World
 
-    <input class="form-check-input" type="checkbox" role="switch" id="toggler">
-    
+    <input class="form-check-input" type="checkbox" role="switch" id="toggler" aria-label="Toggle">
+
     <script>
 
     </script>
