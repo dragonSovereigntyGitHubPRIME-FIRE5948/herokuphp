@@ -16,8 +16,8 @@
   <body>
     Hello World
 
-    <label for="firstname"></label> 
-    <input type="text" id="firstname">
+    <a href="taxhike.html">[Read more...]</a>
+
 
 
     <script>
