@@ -14,12 +14,11 @@
 
   </head>
   <body>
-    
-    <input class="form-check-input" type="checkbox" role="switch" id="toggler" aria-label="Toggle">
-    <script>
-
-    </script>
-</body> 
+    Form elements do not have associated labels
+    <!-- fix : Form elements do not have associated labels -->
+    <a style="cursor:default">About NP</a>
+  </body> 
+  
 </html>
 
 <!-- git add -A
