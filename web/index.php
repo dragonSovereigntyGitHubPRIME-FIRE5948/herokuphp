@@ -16,8 +16,8 @@
   <body>
     Hello World
 
-    <label for="test"></label>
-    <input type="text" id="test">
+    <label for="firstname">First name:</label> <input type="text" id="firstname">
+
 
     <script>
 
