@@ -14,7 +14,7 @@
 
   </head>
   <body>
-  <img src="/content/dam/tp-web/images/home/tiles/TP%20Focused%20Holistic%20Approach.jpg" style="height: 100%; width: auto;">
+  <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" height="100%" width="auto">
   </body> 
 
 </html>
