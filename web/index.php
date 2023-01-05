@@ -14,9 +14,7 @@
 
   </head>
   <body>
-    Form elements do not have associated labels
-    <!-- fix : Form elements do not have associated labels -->
-    <p>About NP</p>
+  <img src="/content/dam/tp-web/images/home/tiles/TP%20Focused%20Holistic%20Approach.jpg" style="height: 100%; width: auto;">
   </body> 
 
 </html>
