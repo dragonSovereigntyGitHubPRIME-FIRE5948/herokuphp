@@ -16,9 +16,9 @@
   <body>
     Form elements do not have associated labels
     <!-- fix : Form elements do not have associated labels -->
-    <a style="cursor:default">About NP</a>
+    <p>About NP</p>
   </body> 
-  
+
 </html>
 
 <!-- git add -A
