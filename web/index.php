@@ -16,11 +16,14 @@
   <body>
     <!-- fix : Serve images in next-gen formats -->
     <!-- <img src="images/image.webp" alt="Image"> -->
-    <picture>
+    <!-- <picture>
   <source srcset="img/awesomeWebPImage.webp" type="image/webp">
   <source srcset="https://media.istockphoto.com/id/1176969551/photo/singapore-skyline-at-marina-bay-at-twilight-with-glowing-sunset-illuminating-the-clouds.jpg?b=1&s=170667a&w=0&k=20&c=AXMh6Q1vN3BgWc4pVha7MfX5gJ_iYUthIBXKmcEBUPQ=" type="image/jpeg"> 
   <img src="https://media.istockphoto.com/id/1176969551/photo/singapore-skyline-at-marina-bay-at-twilight-with-glowing-sunset-illuminating-the-clouds.jpg?b=1&s=170667a&w=0&k=20&c=AXMh6Q1vN3BgWc4pVha7MfX5gJ_iYUthIBXKmcEBUPQ=" alt="Alt Text!">
-</picture>
+</picture> -->
+
+<img src="https://media.istockphoto.com/id/1176969551/photo/singapore-skyline-at-marina-bay-at-twilight-with-glowing-sunset-illuminating-the-clouds.jpg?b=1&s=170667a&w=0&k=20&c=AXMh6Q1vN3BgWc4pVha7MfX5gJ_iYUthIBXKmcEBUPQ=" alt="Alt Text!">
+
 
   </body> 
 
