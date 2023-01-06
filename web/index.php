@@ -14,7 +14,7 @@
 
   </head>
   <body>
-  <a tabindex="1" href="https://marcusneotest123.herokuapp.com/">Click on this</a>
+  <a tabindex="0" href="https://marcusneotest123.herokuapp.com/">Click on this</a>
   </body> 
 
 </html>
