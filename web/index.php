@@ -14,8 +14,11 @@
 
   </head>
   <body>
-  <a tabindex="0" href="https://marcusneotest123.herokuapp.com/">Click on this</a>
-  </body> 
+
+  <h1>Setting the Exposure Manually on a Camera</h1>
+   <h4>Set the ISO</h4>
+
+</body> 
 
 </html>
 
