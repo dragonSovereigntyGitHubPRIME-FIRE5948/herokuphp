@@ -10,15 +10,13 @@
     <!-- fix : Tap targets are not sized appropriately -->
     <!-- fix : Document doesn't use legible font sizes -->
     <!-- fix : Does not have a <meta name="viewport"> tag with width or initial-scale -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 
   </head>
   <body>
-
-  <h1>Setting the Exposure Manually on a Camera</h1>
-   <h4>Set the ISO</h4>
-
+  <h1>Title</h1>
 </body> 
+
 
 </html>
 
